@@ -6,7 +6,7 @@ numero = 15
 cont = 1
 while True:
     usuario = int(input('Qual é o número secreto?: '))
-    if cont == 3:
+    if cont == 4:
         os.system('cls')
         print('PERDEU MANÉ')
         print('KKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK')
@@ -25,4 +25,5 @@ while True:
             print('O número indicado é maior que o número secreto')
         time.sleep(5)
         os.system('cls')
+
         cont = cont + 1
